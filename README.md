@@ -1,6 +1,12 @@
-# potty-mouth: Pre-emptively sanitize user text inputs
+# potty-mouth: preemptively sanitize user text inputs
 
 A lightweight and customizable library to censor words in a textarea or input and display a toast message when a censored word is detected.
+
+### Written in:
+![TypeScript](https://img.shields.io/static/v1?style=for-the-badge&message=TypeScript&color=3178C6&logo=TypeScript&logoColor=FFFFFF&label=)
+
+![potty-mouth](https://user-images.githubusercontent.com/114263701/234681282-d1400675-7015-4e9f-b35f-fc5bb52fff8d.gif)
+This demo uses 'badword1', 'badword2', and 'badword3' user-typed bad words.
 
 ## Installation
 
@@ -70,12 +76,9 @@ censorInput({
   toastStyle: {
     backgroundColor: 'rgba(255, 59, 48, 0.8)',
   },
-  toastDuration: 3000,
-  fadeDuration: 500,
+  toastDuration: 1000,
+  fadeDuration: 200,
 });
 ```
 
 In this example, the `censorInput` function is called with a configuration object that specifies the textarea selector, censored words, toast message, custom toast background color, toast duration, and fade duration.
-```
-
-This README file provides an overview of the `censorInput` library, installation instructions, usage information, configuration options, and an example. You can customize the content as needed to better suit your project.

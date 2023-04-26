@@ -1,4 +1,4 @@
-import censorInput from './src/index.js';
+import censorInput from './lib/index.js';
 
 censorInput({
   textareaSelector: '#text-area',

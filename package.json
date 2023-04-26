@@ -1,0 +1,31 @@
+{
+  "name": "potty-mouth",
+  "version": "0.0.1",
+  "description": "Easily censor bad words",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "files": ["lib/**/*"],
+  "keywords": [
+    "censor",
+    "input",
+    "textarea",
+    "profanity",
+    "filter",
+    "badwords",
+    "text",
+    "validation",
+    "toast",
+    "notification",
+    "language",
+    "sanitization"
+  ],
+  "author": "Erik Newland",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  }
+}

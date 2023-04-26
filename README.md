@@ -1,17 +1,17 @@
-# potty-mouth: preemptively sanitize user text inputs
+# clean-speech: preemptively sanitize user text inputs
 
 A lightweight and customizable library to censor words in a textarea or input and display a toast message when a censored word is detected.
 
 ### Written in:
 ![TypeScript](https://img.shields.io/static/v1?style=for-the-badge&message=TypeScript&color=3178C6&logo=TypeScript&logoColor=FFFFFF&label=)
 
-![potty-mouth](https://user-images.githubusercontent.com/114263701/234681282-d1400675-7015-4e9f-b35f-fc5bb52fff8d.gif)
+![clean-speech](https://user-images.githubusercontent.com/114263701/234681282-d1400675-7015-4e9f-b35f-fc5bb52fff8d.gif)
 This demo uses 'badword1', 'badword2', and 'badword3' user-typed bad words.
 
 ## Installation
 
 ```bash
-npm install potty-mouth
+npm install clean-speech
 ```
 
 ## Usage
@@ -19,7 +19,7 @@ npm install potty-mouth
 Import the `censorInput` function and call it with a configuration object:
 
 ```javascript
-import censorInput from 'potty-mouth';
+import censorInput from 'clean-speech';
 
 censorInput({
   textareaSelector: '#text-area',

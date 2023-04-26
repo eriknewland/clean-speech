@@ -1,5 +1,5 @@
 {
-  "name": "potty-mouth",
+  "name": "clean-speech",
   "version": "0.0.1",
   "description": "Easily censor bad words",
   "main": "lib/index.js",

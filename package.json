@@ -24,7 +24,7 @@
     "sanitization"
   ],
   "author": "Erik Newland",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "typescript": "^5.0.4"
   }
